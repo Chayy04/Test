@@ -1,0 +1,59 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    z-index: 1000;
+}
+.success {
+    background-color: #28a745;
+}
+.error {
+    background-color: #dc3545;
+}
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+}
+/* Copy this code in your css file. */
+
+body
+{
+    width: 500px;
+    margin: auto;
+}
+.container
+{
+    width: 500px;
+    margin: 20px auto;
+}
+
+
+.form-group
+{
+    width:  250px;
+    margin: 10px auto;
+}
+
+.form-group input
+{
+    transition: 0.3s linear;
+}
+
+.form-group input:focus
+{
+    border: 1px solid crimson;
+    box-shadow: 0 0 0 0;
+}
+
